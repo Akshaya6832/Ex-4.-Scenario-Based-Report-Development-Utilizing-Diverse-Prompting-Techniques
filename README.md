@@ -6,23 +6,24 @@ The overarching aim of this experiment is to meticulously demonstrate how the st
 ## Algorithm:
 To achieve the objective, we adopted the following systematic approach:
 
-Understanding Chatbot Requirements:
+**Understanding Chatbot Requirements:**
 The chatbot must answer customer FAQs, track orders, provide product recommendations, and handle complaints politely.
 
-Selection of Prompting Techniques:
+**Selection of Prompting Techniques:**
 We selected a wide range of prompting techniques — including Zero-shot, Few-shot, Chain-of-Thought, Role Prompting, and others — to cover different aspects of chatbot development.
 
-Prompt Design:
+**Prompt Design:**
 For each technique, prompts were specifically designed to handle real-world customer scenarios such as order tracking, damaged item reporting, and delayed delivery.
 
-Experimentation:
+**Experimentation:**
 Each prompting technique was applied to the same scenario to evaluate how the chatbot responded.
 
-Observation and Analysis:
+**Observation and Analysis:**
 We observed the quality, tone, and accuracy of the chatbot’s responses and compared the results to determine which techniques produced the best customer experience.
 
 ## Prompt:
 These are the few types of prompting techniques/types:
+
 **1. Zero-Shot Prompting**
 Without giving examples, the chatbot was asked to respond directly to a query.
 Prompt: “Where is my order #12345?”
